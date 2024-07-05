@@ -13,6 +13,8 @@
 		6C111EF02C385690006621E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C111EEF2C385690006621E2 /* Base */; };
 		6C111EF22C385691006621E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C111EF12C385691006621E2 /* Assets.xcassets */; };
 		6C111EF52C385691006621E2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C111EF42C385691006621E2 /* Base */; };
+		6C111EFD2C385CC9006621E2 /* Test JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C111EFC2C385CC9006621E2 /* Test JSON.swift */; };
+		6C111EFF2C386950006621E2 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C111EFE2C386950006621E2 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6C111EF12C385691006621E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C111EF42C385691006621E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C111EF62C385691006621E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C111EFC2C385CC9006621E2 /* Test JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test JSON.swift"; sourceTree = "<group>"; };
+		6C111EFE2C386950006621E2 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				6C111EE82C385690006621E2 /* AppDelegate.swift */,
 				6C111EEA2C385690006621E2 /* SceneDelegate.swift */,
 				6C111EEC2C385690006621E2 /* ViewController.swift */,
+				6C111EFE2C386950006621E2 /* ImageViewController.swift */,
+				6C111EFC2C385CC9006621E2 /* Test JSON.swift */,
 				6C111EEE2C385690006621E2 /* Main.storyboard */,
 				6C111EF12C385691006621E2 /* Assets.xcassets */,
 				6C111EF32C385691006621E2 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C111EFD2C385CC9006621E2 /* Test JSON.swift in Sources */,
 				6C111EED2C385690006621E2 /* ViewController.swift in Sources */,
+				6C111EFF2C386950006621E2 /* ImageViewController.swift in Sources */,
 				6C111EE92C385690006621E2 /* AppDelegate.swift in Sources */,
 				6C111EEB2C385690006621E2 /* SceneDelegate.swift in Sources */,
 			);
